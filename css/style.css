@@ -1,3 +1,37 @@
+.bx--row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.book-container {
+  width: 100%;
+  min-height: 78%;
+  max-width: 99rem;
+}
+
+.section-sidebar-tnf {
+  padding-left:2rem;
+}
+
+.sidebar-fixed-height {
+  padding-left:2rem;  
+}
+
+.bg-container {
+  display: flex;
+}
+
+.bg-container::before {
+  background:#e5f6fe;
+}
+
+.bg-container::after {
+  background-color: #fff;
+  content: " ";
+}
+
 .bx--type-expressive-heading-06 {
   font-size: 2.625rem;
   line-height: 3.125rem;
@@ -19,7 +53,7 @@
 .bx--type-expressive-label-02 {
   font-size: .875rem;
   line-height: 1.125rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 :root {
@@ -46,11 +80,9 @@ ul, p {
   color:#6F6F6F;
 }
 
-@media (min-width: 321px) and (max-width: 671px) {
-  #timeline-years-wrapper .ibm-grid-col-sm-4-1 {
-    -ms-flex-preferred-size: 15%;
-    flex-basis: 15%;
-    max-width: 15%;
+@media (min-width: 100px) and (max-width: 671px) {
+  .mainillustration {
+    display:none;
   }
 }
 
@@ -81,6 +113,7 @@ ul, p {
     line-height: var(--cds-label-01-line-height,1.33333);
     line-height: 1rem;
     margin-bottom: 0.5rem;
+    margin-top: 1rem;
     vertical-align: initial;
 }
 
@@ -169,13 +202,32 @@ ul, p {
   align-items: center;
   display: flex;
   position: relative;
-  width: 100%;
+  width: 100%!important;
+}
+
+.select2-dropdown, .select2-dropdown--below {
+  height:auto;
+}
+
+.select2 {
+  width: 100%!important;
+  min-width:24rem;
+}
+
+.select2-container--default, .select2-results, .select2-results__options {
+  min-width:24rem;
+  max-height:100%!important;
 }
 
 .select2-selection__choice {
 background-color: #393939!important;
-border-radius: 1rem;
+border-radius: 16px;
+padding:2px 12px 2px 12px!important;
 font-size: 0.875rem;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  margin-right: 6px;
 }
 
 .ibm-btn-primary {
@@ -215,4 +267,8 @@ font-size: 0.875rem;
   max-width: 20rem;
   margin: 0;
   text-decoration: none;
+}
+
+.mandatoryfield {
+  color:red;
 }
