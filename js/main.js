@@ -5,7 +5,6 @@ function replaceImage() {
 
 $(document).ready(function() {
 
-
     var arr = new Array();
     $("select[multiple]").change(function() {
         $(this).find("option:selected")
