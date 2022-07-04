@@ -403,15 +403,15 @@ input[type="file"]::file-selector-button {
 }
 
 .undone::before {
-  content: url('/img/status/undone.svg');
+  content: url('https://i.ibb.co/b27L0xf/undone.png');
   margin-right: 8px;
 }
 .done::before {
-  content: url('/img/status/done.svg');
+  content: url('https://i.ibb.co/hVdkpjK/done.png');
   margin-right: 8px;
 }
 .inprogress::before {
-  content: url('/img/status/inprogress.svg');
+  content: url('https://i.ibb.co/Q7VKw67/inprogress.png');
   margin-right: 8px;
 }
 
