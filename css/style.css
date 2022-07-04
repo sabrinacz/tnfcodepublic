@@ -456,7 +456,7 @@ input[type="file"]::file-selector-button {
   background-color: #e5f6fe;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 200px;
+  padding-top: 100px;
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
