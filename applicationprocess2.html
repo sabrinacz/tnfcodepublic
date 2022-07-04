@@ -259,81 +259,26 @@
                             <form class="cds--form">
                                 <!-- SECTION 1 START -->
                                 <div class="formstepcontainer">
-                                  <p class="formstep-title inprogress">Personal details</p>
-                                    <div class="stackhorizontally">
-                                      <div class="cds--form-item cds--text-input-wrapper">
-                                        <label for="firstname" class="cds--label">
-                                          First name<span class="mandatoryfield">*</span>
-                                        </label>
-                                        <div class="cds--text-input__field-outer-wrapper">
-                                          <div class="cds--text-input__field-wrapper">
-                                            <input onfocus="replaceImage()" id="firstname" placeholder="Enter your first name" type="text"
-                                              required class="cds--text-input cds--text__input cds--text-input--md">
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="cds--form-item cds--text-input-wrapper">
-                                        <label for="lastname" class="cds--label">
-                                          Last name<span class="mandatoryfield">*</span>
-                                        </label>
-                                        <div class="cds--text-input__field-outer-wrapper">
-                                          <div class="cds--text-input__field-wrapper">
-                                            <input id="lastname" placeholder="Enter your last name" type="text" required
-                                              class="cds--text-input cds--text__input cds--text-input--md">
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
+                                  <p class="formstep-title done">Personal details
+                                    <a href="applicationprocess1.html" style="margin-left:1rem;">Edit</a>
+                                  </p>
+                                  <br><p><strong>Your Name</strong></p>
+                                        <p>yourname@gmail.com</p>
+
+                                        
                                     
-                                    <div class="stackhorizontally">
-                                      <div class="cds--form-item cds--text-input-wrapper">
-                                        <label for="email" class="cds--label">
-                                          Email<span class="mandatoryfield">*</span>
-                                        </label>
-                                        <div class="cds--text-input__field-outer-wrapper">
-                                          <div class="cds--text-input__field-wrapper">
-                                            <input id="email" placeholder="Enter your email" type="email" required
-                                              class="cds--text-input cds--text__input cds--text-input--md">
-                                          </div>
+                                    
+                                    <div class="dataflex ibm-pt-2">
+                                        <div class="databox">
+                                            <p class="captiontext">Preferred Language</p>
+                                            <p>English</p>
                                         </div>
-                                      </div>
-                                      <div class="cds--form-item">
-                                        <div class="cds--select">
-                                          <label for="country" class="cds--label">Country<span
-                                              class="mandatoryfield">*</span></label>
-                                          <div class="cds--select-input__wrapper">
-                                            <select class="select cds--select-input" size="2" data-mdb-filter="true">
-                                              <option class="optionplaceholder" value="" disabled selected>Select your
-                                                country</option>
-                                              <option value="Angola">Angola</option>
-                                              <option value="Argentina">Argentina</option>
-                                              <option value="Australia">Australia</option>
-                                              <option value="Austria">Austria</option>
-                                              <option value="Belgium">Belgium</option>
-                                              <option value="Brazil">Brazil</option>
-                                              <option value="Bulgaria">Bulgaria</option>
-                                              <option value="Canada">Canada</option>
-                                              <option value="Chile">Chile</option>
-                                              <option value="China">China</option>
-                                              <option value="Colombia">Colombia</option>
-                                              <option value="Costa Rica">Costa Rica</option>
-                                              <option value="Croacia">Croacia</option>
-                                              <option value="Slovenia">Slovenia</option>
-                                              <option value="United States">United States</option>
-                                              <option value="United Kingdom">United Kingdom</option>
-                                              <option value="Venezuela">Venezuela</option>
-                                            </select>
-                                          </div>
+                                        <div class="databox">
+                                            <p class="captiontext">Country</p>
+                                            <p>United States</p>
                                         </div>
-                                      </div>
                                     </div>
                                         
-                                    <p class="ibm-pb-1 ibm-pt-3">
-                                      <a href="" class="ibm-btn-primary nextbutton ibm-btn-single"
-                                        href="/application-process-2" target="">Next
-                                      <img src="img/nextbutton-whitearrow.svg" alt="white arrow">
-                                      </a>
-                                    </p>
                                 </div>
 
                                 <!-- SECTION 2 START -->
@@ -413,8 +358,8 @@
                                     </div>
                                     
                                     <p class="ibm-pb-1 ibm-pt-3">
-                                      <a href="" class="ibm-btn-primary nextbutton ibm-btn-single"
-                                        href="/application-process-2" target="">Next
+                                      <a class="ibm-btn-primary nextbutton ibm-btn-single"
+                                        href="applicationprocess3.html">Next
                                       <img src="img/nextbutton-whitearrow.svg" alt="white arrow">
                                       </a>
                                     </p>
@@ -424,15 +369,11 @@
 
                                 <div class="formstepcontainer">
                                   <p class="formstep-title undone">Upload your resume and get noticed by recruiters</p>
-                                  <div class="cds--form-item">
-                                    <label for="resume-upload" class="cds--label">Only .pdf files. 2GB max file
-                                      size.</label>
-                                    <input onkeydown="replaceImage()" type="file" accept=".pdf" id="resume-upload">
-                                  </div>
+                                  
                                 </div>
 
                                 <p class="ibm-pb-5 ibm-pb-0 ibm-pt-2">
-                                  <input onkeydown="replaceImage()" type="submit" value="Submit" class="ibm-btn-primary ibm-btn-single"
+                                  <input disabled="disabled" onkeydown="replaceImage()" type="submit" value="Submit" class="ibm-btn-primary ibm-btn-single"
                                     href="application-process/" target="">
                                 </p>
                               

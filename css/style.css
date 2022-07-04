@@ -288,10 +288,17 @@ font-size: 13px;
   border-color: transparent;
   color: #ffffff;
   text-decoration:none;
+  -webkit-transition: all 0.5s ;
+  transition: all 0.5s ;
+}
+
+.ibm-btn-primary:hover {
+  background-color: #064fd7;
 }
 
 .ibm-btn-single {
   font-size: 1rem;
+  text-decoration: none!important;
   font-weight: 400;
   line-height: 1.25rem;
   cursor: pointer;
@@ -393,4 +400,64 @@ input[type="file"]::file-selector-button {
 
 @media (min-width: 100px) and (max-width: 1300px) {
 
+}
+
+.undone::before {
+  content: url('/img/status/undone.svg');
+  margin-right: 8px;
+}
+.done::before {
+  content: url('/img/status/done.svg');
+  margin-right: 8px;
+}
+.inprogress::before {
+  content: url('/img/status/inprogress.svg');
+  margin-right: 8px;
+}
+
+.nextbutton {
+  padding: 2px 20px 2px 12px;
+  min-height: 36px;
+  text-decoration: none;
+}
+
+.nextbutton img {
+  padding-left: 2rem;
+}
+
+
+.dataflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.databox {
+  margin-right: 100px;
+}
+
+.dataflex:last-child {
+  margin-right: 0px;
+}
+
+.captiontext {
+  font-size: 12px;
+  color:#666;
+}
+
+
+
+#thankyou {
+  min-height: 70vh;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #e5f6fe;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 200px;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }

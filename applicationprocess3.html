@@ -259,166 +259,50 @@
                             <form class="cds--form">
                                 <!-- SECTION 1 START -->
                                 <div class="formstepcontainer">
-                                  <p class="formstep-title inprogress">Personal details</p>
-                                    <div class="stackhorizontally">
-                                      <div class="cds--form-item cds--text-input-wrapper">
-                                        <label for="firstname" class="cds--label">
-                                          First name<span class="mandatoryfield">*</span>
-                                        </label>
-                                        <div class="cds--text-input__field-outer-wrapper">
-                                          <div class="cds--text-input__field-wrapper">
-                                            <input onfocus="replaceImage()" id="firstname" placeholder="Enter your first name" type="text"
-                                              required class="cds--text-input cds--text__input cds--text-input--md">
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="cds--form-item cds--text-input-wrapper">
-                                        <label for="lastname" class="cds--label">
-                                          Last name<span class="mandatoryfield">*</span>
-                                        </label>
-                                        <div class="cds--text-input__field-outer-wrapper">
-                                          <div class="cds--text-input__field-wrapper">
-                                            <input id="lastname" placeholder="Enter your last name" type="text" required
-                                              class="cds--text-input cds--text__input cds--text-input--md">
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    
-                                    <div class="stackhorizontally">
-                                      <div class="cds--form-item cds--text-input-wrapper">
-                                        <label for="email" class="cds--label">
-                                          Email<span class="mandatoryfield">*</span>
-                                        </label>
-                                        <div class="cds--text-input__field-outer-wrapper">
-                                          <div class="cds--text-input__field-wrapper">
-                                            <input id="email" placeholder="Enter your email" type="email" required
-                                              class="cds--text-input cds--text__input cds--text-input--md">
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="cds--form-item">
-                                        <div class="cds--select">
-                                          <label for="country" class="cds--label">Country<span
-                                              class="mandatoryfield">*</span></label>
-                                          <div class="cds--select-input__wrapper">
-                                            <select class="select cds--select-input" size="2" data-mdb-filter="true">
-                                              <option class="optionplaceholder" value="" disabled selected>Select your
-                                                country</option>
-                                              <option value="Angola">Angola</option>
-                                              <option value="Argentina">Argentina</option>
-                                              <option value="Australia">Australia</option>
-                                              <option value="Austria">Austria</option>
-                                              <option value="Belgium">Belgium</option>
-                                              <option value="Brazil">Brazil</option>
-                                              <option value="Bulgaria">Bulgaria</option>
-                                              <option value="Canada">Canada</option>
-                                              <option value="Chile">Chile</option>
-                                              <option value="China">China</option>
-                                              <option value="Colombia">Colombia</option>
-                                              <option value="Costa Rica">Costa Rica</option>
-                                              <option value="Croacia">Croacia</option>
-                                              <option value="Slovenia">Slovenia</option>
-                                              <option value="United States">United States</option>
-                                              <option value="United Kingdom">United Kingdom</option>
-                                              <option value="Venezuela">Venezuela</option>
-                                            </select>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                        
-                                    <p class="ibm-pb-1 ibm-pt-3">
-                                      <a href="" class="ibm-btn-primary nextbutton ibm-btn-single"
-                                        href="/application-process-2" target="">Next
-                                      <img src="img/nextbutton-whitearrow.svg" alt="white arrow">
-                                      </a>
+                                    <p class="formstep-title done">Personal details
+                                      <a href="applicationprocess1.html" style="margin-left:1rem;">Edit</a>
                                     </p>
-                                </div>
+                                    <br>
+                                    <p><strong>Your Name</strong></p>
+                                          <p>yourname@gmail.com</p>
 
-                                <!-- SECTION 2 START -->
-
-                                <div class="formstepcontainer">  
-                                  <p class="formstep-title undone">Tell us about yourself</p>
-                                    <div class="cds--form-item">
-                                      <div class="cds--select">
-                                        <label for="experiencelevel" class="cds--label">Experience level<span
-                                            class="mandatoryfield">*</span></label>
-                                        <div class="cds--select-input__wrapper">
-                                          <select class="select cds--select-input" size="2" data-mdb-filter="true">
-                                            <option class="optionplaceholder" value="" disabled selected>Select your
-                                              experience level</option>
-                                            <option value="Intern">Intern</option>
-                                            <option value="Intern">Apprentice</option>
-                                            <option value="Entry-level professional">Entry-level professional (less than
-                                              3 years)</option>
-                                            <option value="Professional">Professional (more than 3 years)</option>
-                                            <option value="Executive">Executive</option>
-                                            <option value="Executive">Tech Re-entry</option>
-                                          </select>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                    <div class="cds--form-item">
-                                      <div class="cds--select">
-                                        <label for="areaofinterest" class="cds--label">Area of interest</label>
-                                        <div class="cds--select-input__wrapper">
-                                          <select class="select cds--select-input" data-mdb-filter="true">
-                                            <option class="optionplaceholder" value="" disabled selected>Select your
-                                              area of interest</option>
-                                            <option value="Cloud">Cloud</option>
-                                            <option value="Consulting">Consulting</option>
-                                            <option value="Communications">Communications</option>
-                                            <option value="Data & Analytics">Data & Analytics</option>
-                                            <option value="Design & UX">Design & UX</option>
-                                            <option value="Enterprise Operations">Enterprise Operations</option>
-                                            <option value="Research">Research</option>
-                                            <option value="Sales">Sales</option>
-                                            <option value="Security">Security</option>
-                                            <option value="Software Engineering and Development">Software Engineering
-                                              and Development</option>
-                                            <option value="Project management">Project management</option>
-                                          </select>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                    <div class="cds--form-item">
-                                      <div class="cds--select">
-                                        <label for="skills" class="cds--label">Skills (choose up to 3)</label>
-                                        <div class="cds--select-input__wrapper">
-                                          <select id="limitselect" class="select cds--select-input" multiple="multiple"
-                                            data-mdb-filter="true">
-                                            <option value="Human Resources">Human Resources</option>
-                                            <option value="Recruitment">Recruitment</option>
-                                            <option value="Finance">Finance</option>
-                                            <option value="Legal">Legal</option>
-                                            <option value="Administration">Administration</option>
-                                          </select>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                    <div class="cds--form-item">
-                                      <div class="cds--select">
-                                        <label for="womenatibm" class="cds--label">Communities of interest</label>
-
-                                        <div class="cds--text-input__field-outer-wrapper">
-                                          <div class="cds--text-input__field-wrapper">
-                                            <input onfocus="replaceImage()" type="checkbox" id="cbox1" value="womenatibm"> Women@IBM
+                                      <div class="dataflex ibm-pt-2">
+                                          <div class="databox">
+                                              <p class="captiontext">Preferred Language</p>
+                                              <p>English</p>
                                           </div>
-                                        </div>
+                                          <div class="databox">
+                                              <p class="captiontext">Country</p>
+                                              <p>United States</p>
+                                          </div>
                                       </div>
-                                    </div>
-                                    
-                                    <p class="ibm-pb-1 ibm-pt-3">
-                                      <a href="" class="ibm-btn-primary nextbutton ibm-btn-single"
-                                        href="/application-process-2" target="">Next
-                                      <img src="img/nextbutton-whitearrow.svg" alt="white arrow">
-                                      </a>
+                                          
+                                  </div>
+  
+                                  <!-- SECTION 2 START -->
+  
+                                  <div class="formstepcontainer">  
+                                    <p class="formstep-title done">Tell us about yourself
+                                        <a href="applicationprocess2.html" style="margin-left:1rem;">Edit</a>
                                     </p>
-                                </div>
+                                    
+                                    <br>
+                                        <p class="captiontext">Experience level</p>
+                                        <p>Entry-level professional (less than 3 years)</p>
+                                    
+                                            
+                                    <div class="dataflex ibm-pt-2">
+                                        <div class="databox">
+                                            <p class="captiontext">Area of interest</p>
+                                            <p>Enterprise Operations</p>
+                                        </div>
+                                        <div class="databox">
+                                            <p class="captiontext">Skills</p>
+                                            <p>Human Resources, Finance, Legal</p>
+                                        </div>
+                                    </div>
+
+                                  </div>
 
                                   <!-- SECTION 3 START -->
 
@@ -432,8 +316,10 @@
                                 </div>
 
                                 <p class="ibm-pb-5 ibm-pb-0 ibm-pt-2">
-                                  <input onkeydown="replaceImage()" type="submit" value="Submit" class="ibm-btn-primary ibm-btn-single"
-                                    href="application-process/" target="">
+                                  <!-- <input onkeydown="replaceImage()" type="submit" value="Submit" class="ibm-btn-primary ibm-btn-single"
+                                    href="thankyoupage.html" target=""> -->
+                                 <a class="ibm-btn-primary ibm-btn-single"
+                                    href="thankyoupage.html"> Submit </a>
                                 </p>
                               
 
