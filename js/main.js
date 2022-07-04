@@ -1,6 +1,6 @@
 
 function replaceImage() {
-        document.getElementById("mainillustration").src="./img/typewriter_animated.gif";
+        document.getElementById("mainillustration").src="https://i.ibb.co/cL9vXzq/typewriter-animated.gif";
     }
 
 $(document).ready(function() {
