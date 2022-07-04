@@ -461,3 +461,32 @@ input[type="file"]::file-selector-button {
   flex-wrap: wrap;
   align-items: center;
 }
+
+/* job description styles */
+
+.jobheader {
+  background-color: #e5f6fe;
+  display: flex;
+  flex-direction: column;
+  padding:2rem;
+  position:sticky;
+  top:0px;
+}
+
+.jobkeydetails {
+  display: flex;
+  flex-direction: row;
+}
+.jobtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.jobtitle-apply {
+  display: flex;
+  flex-direction: row;
+}
+
+.jobkeydetails p {
+  margin-right: 1rem;
+}
