@@ -209,31 +209,39 @@
                     <div class="ibm-grid-container">
                       <div class="ibm-grid-col-sm-4-4 ibm-grid-col-md-8-4 ibm-grid-col-lg-16-8 ibm-grid-col-seamless"
                         style="background-color: #e5f6fe;">
-                        <div class="section-sidebar-tnf">
+                        
                           <div class="ibm-pt-3">
                             <a class="bx--type-expressive-label-02" href="">
-                              < Go back to search jobs </a>
-                                <h1 class="bx--type-expressive-heading-06 ibm-mt-5 ibm-pb-0 ani-reveal ani-fadeInUp">
-                                  Join IBM's Talent Network
-                                </h1>
-                                <div
-                                  class="bx--type-body-long-02 ibm-mb-0 ibm-duo-module-11a-double__subhead ibm-pb-1 ani-reveal ani-fadeInUp">
-                                  <h2 class="bx--type-expressive-heading-05 ibm-mb-1">and discover the latest career
-                                    opportunities</h2>
-                                  <p class="graytext">Hi! You are on your way to apply to your dream job as
-                                    <br>Fullstack
-                                    Software Developer (Java, Node.js, React).</p>
-                                  <p class="ibm-mt-1"><strong>First, let's connect</strong></p>
-                                  <ul>
-                                    <li class="tnf-li">Be the first to know about new opportunities</li>
-                                    <li class="tnf-li">Keep up to date with IBM news</li>
-                                  </ul>
+                              <div class="section-sidebar-tnf">
+                                < Go back to search jobs </a>
+                                  <h1 class="bx--type-expressive-heading-06 ibm-mt-5 ibm-pb-0 ani-reveal ani-fadeInUp">
+                                    Join IBM's Talent Network
+                                  </h1>
+                                  <div
+                                    class="bx--type-body-long-02 ibm-mb-0 ibm-duo-module-11a-double__subhead ibm-pb-1 ani-reveal ani-fadeInUp">
+                                    <h2 class="bx--type-expressive-heading-05 ibm-mb-1">and discover the latest career
+                                      opportunities</h2>
+                                    <p class="graytext">Hi! You are on your way to apply to your dream job as a Fullstack
+                                      Software Developer.</p>
+                                    <p class="ibm-mt-1"><strong>First, let's connect</strong></p>
+                                    <ul>
+                                      <li class="tnf-li">Be the first to know about new opportunities</li>
+                                      <li class="tnf-li">Keep up to date with IBM news</li>
+                                    </ul>
+                                  </div>
                                 </div>
-
-                                <img class="mainillustration" src="img/exampleillustration_typewriter.png"
-                                  alt="typewriter">
-
-                          </div>
+                              <div class="section2-sidebar-tnf">
+                                <div id="illustrationbg">
+                                  <div class="illustrationbgflex">
+                                      <img id="secondaryillustration" src="img/mug.png"
+                                      alt="coffee mug">
+                                      <img id="mainillustration" src="img/typewriter_static.png"
+                                      alt="typewriter">
+                                  </div>
+                                    <img id="dotsillustration" src="img/dots.png"
+                                      alt="dots">
+                                </div>
+                              </div>
 
                         </div>
                       </div>
@@ -244,7 +252,7 @@
                           <div class="ibm-duo-module-11a-double__cta">
                             <div class="sidebar-fixed-height  ibm-pt-3">
                               
-                            <p><br>Complete this form to join<br></p>
+                            <p class="formmaintitle"><br>Complete this form to join<br></p>
 
                               
 
@@ -259,7 +267,7 @@
                                         </label>
                                         <div class="cds--text-input__field-outer-wrapper">
                                           <div class="cds--text-input__field-wrapper">
-                                            <input id="firstname" placeholder="Enter your first name" type="text"
+                                            <input onfocus="replaceImage()" id="firstname" placeholder="Enter your first name" type="text"
                                               required class="cds--text-input cds--text__input cds--text-input--md">
                                           </div>
                                         </div>
@@ -391,7 +399,7 @@
 
                                         <div class="cds--text-input__field-outer-wrapper">
                                           <div class="cds--text-input__field-wrapper">
-                                            <input type="checkbox" id="cbox1" value="womenatibm"> Women@IBM
+                                            <input onfocus="replaceImage()" type="checkbox" id="cbox1" value="womenatibm"> Women@IBM
                                           </div>
                                         </div>
                                       </div>
@@ -405,14 +413,13 @@
                                   <div class="cds--form-item">
                                     <label for="resume-upload" class="cds--label">Only .pdf files. 2GB max file
                                       size.</label>
-                                    <input type="file" accept=".pdf" id="resume-upload">
+                                    <input onkeydown="replaceImage()" type="file" accept=".pdf" id="resume-upload">
                                   </div>
                                 </div>
 
-                                <p class="ibm-mb-0 ibm-pb-0 ibm-pt-2">
-                                  <input type="submit" value="Submit" class="ibm-btn-primary ibm-btn-single"
+                                <p class="ibm-pb-5 ibm-pb-0 ibm-pt-2">
+                                  <input onkeydown="replaceImage()" type="submit" value="Submit" class="ibm-btn-primary ibm-btn-single"
                                     href="application-process/" target="">
-
                                 </p>
                               
 

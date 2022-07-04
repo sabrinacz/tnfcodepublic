@@ -1,4 +1,11 @@
+
+function replaceImage() {
+        document.getElementById("mainillustration").src="../img/typewriter_animated.gif";
+    }
+
 $(document).ready(function() {
+
+
     var arr = new Array();
     $("select[multiple]").change(function() {
         $(this).find("option:selected")
@@ -13,4 +20,5 @@ $(document).ready(function() {
             });
         }
     });
+
 });

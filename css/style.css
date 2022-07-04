@@ -82,18 +82,46 @@ ul, p {
   color:#6F6F6F;
 }
 
-@media (min-width: 100px) and (max-width: 671px) {
-  .mainillustration {
-    display:none;
-  }
+
+#illustrationbg {
+  position: absolute;
+  width: 100%;
+  min-height: 400px;
+  height:65vh;
+  bottom:-170px;
+  background-color: #BAE6FF;
 }
 
-.mainillustration {
+
+.section2-sidebar-tnf {
+  min-width: 100%;
+  min-height: 75vh;
   position: relative;
-  bottom:80px;
-  max-width: 100%;
 }
 
+#mainillustration {
+  position: relative;
+  bottom:320px;
+  object-fit: contain;
+  max-width: 240px;
+  left:100px;
+}
+
+#secondaryillustration {
+  position: relative;
+  bottom:355px;
+  object-fit: contain;
+  max-width: 60px;
+  left:100px;
+}
+
+#dotsillustration {
+  position: relative;
+  bottom:300px;
+  width: 90%;
+  padding-left: 2rem;
+  align-items: center;
+}
 .cds--form-item {
   align-items: flex-start;
   display: flex;
@@ -330,4 +358,39 @@ input[type="file"]::file-selector-button {
 
 .stackhorizontally:last-child {
   margin-right: 0px;
+}
+
+.formmaintitle {
+  margin-bottom:1rem;
+}
+
+
+
+@media (min-width: 100px) and (max-width: 671px) {
+
+
+  .select2-container--default, .select2-results, .select2-results__options {
+    width: 300px !important;
+  }
+  
+   .section2-sidebar-tnf {
+    display:none;
+  }
+
+  .sidebar-fixed-height {
+    background-color: #e5f6fe;
+  }
+}
+
+
+.illustrationbgflex {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+@media (min-width: 100px) and (max-width: 1300px) {
+
 }
