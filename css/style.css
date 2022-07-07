@@ -522,6 +522,7 @@ input[type="file"]::file-selector-button {
 
 .jobkeydetails p {
   margin-right: 1rem;
+  line-height: 14px;
   display:inline-block;
 }
 
@@ -626,18 +627,19 @@ input[type="file"]::file-selector-button {
     flex-direction: column!important;
   }
   .jobkeydetails p {
-   margin-bottom:10px;
+   margin-bottom:20px;
   }
   .jobtitle {
     flex-direction: column!important;
     align-items: flex-start;
-    margin-bottom:10px;
+    margin-bottom:30px;
   }
   .jobkeydetails p {
     display:inline-block;
   }
-  .jobdescription-box {
-    padding-right:0rem;
+  .jobdescription-box-text {
+    padding-left:0rem;
+    margin-bottom:5rem;
   }
   #jobhero {
     position:relative!important;
@@ -649,6 +651,9 @@ input[type="file"]::file-selector-button {
   }
   .margintopmaxed2 {
     top:0px;
+  }
+  .jobcontainer {
+    height: 100%;
   }
 }
 
