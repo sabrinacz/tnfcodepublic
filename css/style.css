@@ -484,12 +484,6 @@ input[type="file"]::file-selector-button {
   z-index: 999;
 }
 
-.jobtitle {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 .jobtitle * {
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -629,7 +623,7 @@ input[type="file"]::file-selector-button {
 
   .jobtitle {
     flex-direction: column!important;
-    align-items: flex-start;
+    justify-content: flex-start;
   }
   .jobdescription-box-text {
     padding-left:0rem;
@@ -676,4 +670,12 @@ input[type="file"]::file-selector-button {
 
 .compress {
   max-width: 60%;
+}
+
+
+.jobtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
