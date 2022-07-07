@@ -1,3 +1,8 @@
+body {
+  font-size: 16px;
+  line-height: 18px;
+}
+
 .bx--row {
   display: flex;
   flex-wrap: wrap;
@@ -398,9 +403,7 @@ input[type="file"]::file-selector-button {
   justify-content: center;
 }
 
-@media (min-width: 100px) and (max-width: 1300px) {
 
-}
 
 .undone::before {
   content: url('https://i.ibb.co/b27L0xf/undone.png');
@@ -443,6 +446,7 @@ input[type="file"]::file-selector-button {
 
 .captiontext {
   font-size: 12px;
+  line-height: 14px;
   color:#666;
 }
 
@@ -464,29 +468,197 @@ input[type="file"]::file-selector-button {
 
 /* job description styles */
 
+.jobcontainer {
+  height: 2000px;
+}
+
 .jobheader {
   background-color: #e5f6fe;
   display: flex;
   flex-direction: column;
   padding:2rem;
-  position:sticky;
   top:0px;
 }
+#jobhero {
+  display: block;
+  width: 100%;
+  z-index: 999;
+}
+
+.jobtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.jobtitle * {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.minimized .jobtitle .bx--type-expressive-heading-05 {
+  font-size: 26px;
+  padding-bottom:0px;
+}
+
+.minimized p {
+  font-size: 14px;
+}
+
 
 .jobkeydetails {
   display: flex;
   flex-direction: row;
 }
-.jobtitle {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
+
 .jobtitle-apply {
   display: flex;
   flex-direction: row;
+  align-content: center;
+  align-items: center;
 }
 
 .jobkeydetails p {
   margin-right: 1rem;
+  display:inline-block;
+}
+
+.job-id {
+  background: #BAE6FF;
+  border: 0.5px solid #33B1FF;
+  border-radius: 24px;
+  font-size: 0.75rem;
+  width: fit-content;
+  height: fit-content;
+  padding:0px 10px;
+  color: #0072C3;
+  -webkit-transition: all 0.2s ;
+  transition: all 0.2s ;
+  display: block;
+}
+
+.job-id:hover {
+  background: #1180d0;
+  border: 0.5px solid #1180d0;
+  border-radius: 24px;
+  font-size: 0.75rem;
+  padding:0px 10px;
+  color: #fff;
+}
+
+.sharelinks {
+  display: flex;
+  flex-direction: column;
+  margin-left:2rem;
+}
+
+.sharelinks-svg {
+  flex-direction: row;
+}
+
+.jointnf {
+  padding-top:122px; /*adjust bc of hero*/
+  position:relative;
+  top:0px;
+  padding-left:2rem;
+}
+
+.jointnf-text {
+  width: 50%;
+}
+.jointnf-text .captiontext {
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+}
+.jobdescription-box {
+  position:relative;
+  top:0px;
+  padding-top:70px;  /*adjust bc of hero*/
+  padding-left:2rem;
+  padding-right:5rem;
+}
+
+.margintopmaxed1 {
+  top:228px;
+}
+.margintopmaxed2 {
+  top:180px;
+}
+
+.jobdescription {
+  padding-top:0rem;
+}
+
+.jobdescription .ibm-grid-container {
+  padding-top:0rem;
+  height: 100%;
+}
+
+.jobdescription-box-text {
+  padding-left:3rem;
+  padding-top:2rem;
+}
+
+.divider-text {
+  border-top:0.5px solid #d4d4d4;
+  margin-top:3.2rem;
+  margin-bottom:2rem;
+}
+
+.jointnf img {
+  width: 90%;
+  margin-top:0.5rem;
+}
+
+.jobdescription-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .jobdescription-flex {
+    flex-direction: column!important;
+  }  
+  .jobkeydetails {
+    flex-direction: column!important;
+  }
+  .jobkeydetails p {
+   margin-bottom:10px;
+  }
+  .jobtitle {
+    flex-direction: column!important;
+    align-items: flex-start;
+    margin-bottom:10px;
+  }
+  .jobkeydetails p {
+    display:inline-block;
+  }
+  .jobdescription-box {
+    padding-right:0rem;
+  }
+  #jobhero {
+    position:relative!important;
+    top:0px;
+    margin-top:0px;
+  }
+  .margintopmaxed1 {
+    top:0px;
+  }
+  .margintopmaxed2 {
+    top:0px;
+  }
+}
+
+.expandable-text {
+  width: 100%;
+  border-top:1px solid #d4d4d4;
+  border-bottom:1px solid #d4d4d4;
+  height: auto;
+  padding:1rem;
+  margin-top:4rem;
+  display: flex;
+  justify-content: space-between;
 }
