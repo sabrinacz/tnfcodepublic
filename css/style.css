@@ -624,6 +624,7 @@ input[type="file"]::file-selector-button {
   .jobtitle {
     flex-direction: column!important;
     justify-content: flex-start;
+    align-items: flex-start;
   }
   .jobdescription-box-text {
     padding-left:0rem;
